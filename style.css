@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+
+body{
+  overflow-x: hidden;
+}
+.navbg {
+  background-color: rgb(122, 11, 71) !important;
+}
+nav {
+  padding: 0 4rem !important;
+}
+.text-white {
+  color: white;
+}
+
+.hw {
+  height: 60vh;
+  width: 100%;
+}
+
+.nav-link {
+  color: rgb(69, 71, 69) !important;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.active {
+  color: rgb(146, 15, 146) !important;
+}
+
+.nav-link:hover {
+  color: rgb(150, 24, 150) !important;
+  text-decoration: underline;
+}
+
+main {
+  background-image: linear-gradient(rgba(3, 0, 0, 0.479) , rgba(29, 24, 24, 0.377)) , 
+  url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  padding: 400px 0 525px;
+  background-attachment: fixed;
+ 
+
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.foods {
+  padding: 2rem 0;
+}
+
+.card-top-img {
+  height: 20rem;
+  width: 100%;
+}
+.card {
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+.foods .card img {
+  transform: scale(1);
+  transition: all 200ms linear;
+}
+
+.foods .card img:hover {
+  transform: scale(1.1);
+}
+
+
+.reviews {
+  padding: 2rem 5%;
+}
+
+
+.reviews .card{
+  border-right: 1px solid gray;
+}
+
+
+/* .services .col-md-4{
+  border: 1px solid gray;
+} */
+
+.services img{
+  height: 10rem;
+  
+}
+
+
+.subscribe{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.418) , rgba(0, 0, 0, 0.445)) , url('./img/photo-1606787366850-de6330128bfc.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: rem;
+ 
+}
+
+.subscribe .row{
+  height: 22vh;
+}
+
+
+.subscribe h4{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.jumbotron a{
+  text-decoration: none;
+  
+}
+
+
+.social-icons{
+  transform: scale(1) rotate(360deg);
+  transition: all 1s linear;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+
+.social-icons:hover{
+  transform: scale(1.2);
+}
